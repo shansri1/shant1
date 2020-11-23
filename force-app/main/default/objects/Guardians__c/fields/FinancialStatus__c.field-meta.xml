@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinancialStatus__c</fullName>
+    <externalId>false</externalId>
+    <label>Financial Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Poor</fullName>
+                <default>false</default>
+                <label>Poor</label>
+            </value>
+            <value>
+                <fullName>Middle Class</fullName>
+                <default>false</default>
+                <label>Middle Class</label>
+            </value>
+            <value>
+                <fullName>Upper Class</fullName>
+                <default>false</default>
+                <label>Upper Class</label>
+            </value>
+            <value>
+                <fullName>Rich</fullName>
+                <default>false</default>
+                <label>Rich</label>
+            </value>
+            <value>
+                <fullName>very Rich</fullName>
+                <default>false</default>
+                <label>very Rich</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
